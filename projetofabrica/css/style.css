@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #5D2484; /* Fundo roxo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background-color: #5D2484; /* Fundo roxo */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc; /* Cor cinza para a imagem */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    color: #E0E0E0; /* Cor clara para os textos */
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D6D6D6; /* Fundo cinza para os inputs */
+}
+
+textarea {
+    height: 60px;
+    resize: none;
+}
+
+.buttons {
+    text-align: right;
+}
+
+button.voltar {
+    background-color: #706F6F; /* Cinza escuro para o botão "Voltar" */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.voltar:hover {
+    background-color: #504F4F; /* Efeito hover mais escuro */
+}
